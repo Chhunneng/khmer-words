@@ -169,3 +169,8 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+
+
+# Ignore SQLite temporary files
+*.db-shm
+*.db-wal
